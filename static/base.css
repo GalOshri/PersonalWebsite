@@ -90,6 +90,7 @@ body {
 @media (min-width: 100px) {
   .cover-container {
     width: 80%;
+    margin-bottom: 10px;
   }
 }
 
