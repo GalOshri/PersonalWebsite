@@ -11,7 +11,7 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 100px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -87,8 +87,14 @@ body {
  * Affix and center
  */
 
-@media (min-width: 200px) {
-    /* Pull out the header and footer */
+@media (min-width: 100px) {
+  .cover-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 468px) {
+  /* Pull out the header and footer */
   .masthead {
     top: 0;
     margin-bottom: 10px;
@@ -99,12 +105,15 @@ body {
     vertical-align: middle;
   }
 
+  .masthead-brand {
+    margin-top:100px;
+  }
+  /* Handle the widths */
+  .masthead,
   .cover-container {
-    width: 80%;
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-
-
 
 @media (min-width: 992px) {
   .masthead,
