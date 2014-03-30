@@ -87,8 +87,8 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
+@media (min-width: 200px) {
+    /* Pull out the header and footer */
   .masthead {
     top: 0;
     margin-bottom: 10px;
@@ -98,16 +98,20 @@ body {
   .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
-  .masthead,
+
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 80%;
   }
 }
+
+
 
 @media (min-width: 992px) {
   .masthead,
   .cover-container {
     width: 800px;
   }
+}
+
+
 }
